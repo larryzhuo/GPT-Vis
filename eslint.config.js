@@ -30,6 +30,7 @@ export default tseslint.config(
 
       // Site directory (separate Next.js app with own lint config)
       'site/**',
+      'ba-example/**',
     ],
   },
 

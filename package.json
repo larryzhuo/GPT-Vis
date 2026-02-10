@@ -38,6 +38,7 @@
     "lint:ts-fix": "pnpm lint:ts --fix",
     "test": "vitest run",
     "test:watch": "vitest",
+    "dev:example": "vite serve ./ba-example",
     "changeset": "changeset add",
     "publish-version": "changeset version",
     "publish-package": "pnpm build && changeset publish"
@@ -71,6 +72,7 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.46.1",
+    "vite": "^6.3.5",
     "vitest": "^4.0.18",
     "webpack-bundle-analyzer": "^4.10.2"
   },
